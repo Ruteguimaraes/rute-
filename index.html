@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produção e a preservação do meio ambiente.</p>
+            <a href="#simulador" class="btn-principal">Conheça o Impacto</a>
+        </div>
+    </header>
+
+    <section class="pilares">
+        <h2>Os Pilares do Agro Sustentável</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Produção Eficiente</h3>
+                <p>Uso de tecnologia de ponta e agricultura de precisão para produzir mais alimentos utilizando menos espaço e recursos recurso naturais.</p>
+            </div>
+            <div class="card">
+                <h3>Preservação</h3>
+                <p>Manutenção de áreas de reserva legal, proteção de mananciais e integração lavoura-pecuária-floresta (ILPF).</p>
+            </div>
+            <div class="card">
+                <h3>Tecnologia Verde</h3>
+                <p>Bioinsumos, energia solar nas fazendas e sistemas inteligentes de irrigação que evitam o desperdício de água.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="simulador" class="simulador-section">
+        <h2>Simulador de Práticas Sustentáveis</h2>
+        <p>Selecione as práticas agrícolas que você deseja adotar e veja o impacto positivo gerado:</p>
+        
+        <div class="simulador-container">
+            <div class="opcoes">
+                <label>
+                    <input type="checkbox" id="reuso-agua" value="30"> Irrigação Gota a Gota (-30% de uso de água)
+                </label>
+                <label>
+                    <input type="checkbox" id="energia-solar" value="50"> Painéis Solares na Fazenda (-50% na pegada de carbono)
+                </label>
+                <label>
+                    <input type="checkbox" id="bioinsumos" value="20"> Uso de Bioinsumos (-20% de químicos no solo)
+                </label>
+            </div>
+
+            <div class="resultado">
+                <h3>Resultado da sua Fazenda:</h3>
+                <p id="mensagem-resultado">Selecione uma prática acima para ver o impacto do futuro do agro!</p>
+                <div class="barra-progresso"><div id="progresso"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Agro Forte & Sustentável. Cultivando o amanhã de forma consciente.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
